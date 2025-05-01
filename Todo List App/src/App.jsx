@@ -57,7 +57,7 @@ function App() {
         </button>
       </div>
 
-      {/* ✅ Display Todo List */}
+      {/* Display Todo List */}
       <div className="mt-4">
         {Todo.map((item, index) => (
           <div key={index} className="flex justify-between w-96 m-2 bg-amber-200 p-3">
